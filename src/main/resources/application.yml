@@ -1,0 +1,24 @@
+server:
+  port: 8093
+  servlet:
+    context-path: /easyschool/academic
+
+spring:
+  application:
+    name: es-academic-ms
+  profiles:
+    active:
+    - dev
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: update
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8091/eureka/
+
+
