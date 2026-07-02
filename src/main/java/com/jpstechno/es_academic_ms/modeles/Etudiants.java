@@ -8,7 +8,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Etudiants extends ActeurEcole {
+public class Etudiants extends EcoleAnneeActeur {
 
     private String matricule;
 
@@ -28,7 +28,7 @@ public class Etudiants extends ActeurEcole {
 
     public Etudiants(String nom, String prenom, String email, String telephone, String motDePasse,
             Ecoles ecole, String matricule) {
-        super(nom, prenom, email, telephone, motDePasse, ecole);
+        // super(nom, prenom, email, telephone, motDePasse, ecole);
         this.matricule = matricule;
         this.isEtudiantActif = false;
         this.parents = new ArrayList<Parents>();
@@ -36,7 +36,7 @@ public class Etudiants extends ActeurEcole {
 
     public Etudiants(long id, String nom, String prenom, String email, String telephone, String motDePasse,
             Ecoles ecole, String matricule) {
-        super(id, nom, prenom, email, telephone, motDePasse, ecole);
+        // super(id, nom, prenom, email, telephone, motDePasse, ecole);
         this.matricule = matricule;
         this.isEtudiantActif = false;
         this.parents = new ArrayList<Parents>();

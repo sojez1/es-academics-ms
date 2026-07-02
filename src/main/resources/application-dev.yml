@@ -4,4 +4,7 @@ spring:
     username: postgres
     password: sojez
     driver-class-name: org.postgresql.Driver
-    
+  
+  cloud:
+    discovery:
+      enabled: true

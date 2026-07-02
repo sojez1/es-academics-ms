@@ -1,5 +1,7 @@
 package com.jpstechno.es_academic_ms.modeles;
 
+import com.jpstechno.es_academic_ms.enumerations.Fonctions;
+
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.ManyToOne;

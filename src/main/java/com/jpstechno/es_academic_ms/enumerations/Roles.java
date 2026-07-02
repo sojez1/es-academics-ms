@@ -1,4 +1,4 @@
-package com.jpstechno.es_academic_ms.modeles;
+package com.jpstechno.es_academic_ms.enumerations;
 
 public enum Roles {
     ADMIN,
